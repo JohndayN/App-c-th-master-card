@@ -1,0 +1,28 @@
+HTML
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đọc thẻ Visa và Mastercard</title>
+  </head>
+  <body>
+    <h1>Đọc thẻ Visa và Mastercard</h1>
+    <form action="#">
+      <label for="cardNumber">Số thẻ:</label>
+      <input type="text" id="cardNumber" name="cardNumber" required />
+
+      <label for="expiryDate">Hạn sử dụng:</label>
+      <input type="month" id="expiryDate" name="expiryDate" required />
+
+      <label for="cvv">Mã bảo mật:</label>
+      <input type="text" id="cvv" name="cvv" required />
+
+      <button type="submit">Xác nhận</button>
+    </form>
+
+    <script>
+      // Mã JavaScript để xử lý thông tin thẻ sẽ được viết tại đây
+    </script>
+  </body>
+</html>
